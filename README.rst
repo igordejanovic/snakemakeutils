@@ -11,9 +11,7 @@ Functions:
 * del_char_idx(idx) - will delete the char at the given index.
 * del_char(char) - will delete all characters matching :code:`char` param.
 * del_line(regex) - will delete line if it matches the given regex.
-* apply(trans, encoding, in_files, out_files) - will apply all transformations
-    given in :code:`trans` list to all lines in the :code:`in_files` list producing output
-    files from the :code:`out_files` list.
+* apply(trans, encoding, in_files, out_files) - will apply all transformations given in :code:`trans` list to all lines in the :code:`in_files` list producing output files from the :code:`out_files` list.
 
 Example
 -------
